@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SFH206K
+D OSRAM OPTO SEMICONDUCTORS - SFH206K - Photodiode, 60 , 2 nA, 850 nm, T-1 3/4 (5mm)
+K
+F https://dammedia.osram.info/media/resource/hires/osram-dam-5488346/SFH%20206%20K_EN.pdf
+$ENDCMP
+#
+#End Doc Library

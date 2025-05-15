@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SFH206K'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ams OSRAM", "SFH206K" (!) = "", "SFH206K", "Other", "", "", "SFH206K", "https://www.arrow.com/en/products/sfh206k/osram-opto-semiconductors", "OSRAM OPTO SEMICONDUCTORS - SFH206K - Photodiode, 60 , 2 nA, 850 nm, T-1 3/4 (5mm)", "https://dammedia.osram.info/media/resource/hires/osram-dam-5488346/SFH%20206%20K_EN.pdf", "6.9 mm"
+END_PART
+
+END.

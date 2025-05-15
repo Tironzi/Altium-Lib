@@ -1,0 +1,9 @@
+Manufacturer=ams OSRAM
+PartNumber=SFH206K
+PartCategory=LED
+PackageCategory=Other
+PinCount=2
+Version=1.5
+Released=2022-02-05 06:47:05
+Downloaded=2024-12-23 11:42:50
+3D=Y

@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_1168398"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-02-05-06:47:05)
+    (utime 2024-01-30-14:23:31)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "SFH206K")
+)
+
+
+(pinAssign "ECS_1168398"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-02-05-06:47:05)
+    (utime 2024-01-30-14:23:31)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1168398")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "SFH206K")
+)
+
+
+(part "SFH206K"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-02-05-06:47:05)
+    (utime 2024-01-30-14:23:31)
+    (packageRef "SFH206K")
+    (pinAssignRef "ECS_1168398")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "LED")
+    (property "description" "OSRAM OPTO SEMICONDUCTORS - SFH206K - Photodiode, 60 , 2 nA, 850 nm, T-1 3/4 (5mm)")
+    (property "Manufacturer_Name" "ams OSRAM")
+    (property "Manufacturer_Part_Number" "SFH206K")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Arrow_Part_Number" "SFH206K")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/sfh206k/osram-opto-semiconductors")
+    (property "Datasheet_Link" "https://dammedia.osram.info/media/resource/hires/osram-dam-5488346/SFH%20206%20K_EN.pdf")
+    (property "compAreaTopHeight" 6.9)
+)
+
+
